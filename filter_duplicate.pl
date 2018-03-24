@@ -31,7 +31,7 @@ my $seqio = Bio::SeqIO->new( -file => $file, -format => "fasta" );
 my $outseq = Bio::SeqIO->new( -file => ">$file.unique.fasta", -format => "fasta" );
 
 # Filter duplicate sequences and generate the output file
-while ( my $seqs = $seqio->next_seq ) {
+while (my $seqs = $seqio->next_seq) {
 	my $id  = $seqs->display_id;
 	my $seq = $seqs->seq;
 	unless ( exists( $unique{$seq} ) ) {

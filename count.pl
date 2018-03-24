@@ -8,7 +8,7 @@ INPUT           : name.fasta
 OUTPUT          : Number of FASTA sequences: <number>
 AUTHOR          : Dr. Rohit Farmer
 EMAIL           : rohit.farmer@gmail.com
-LAST MODIFIED   : 24/02/2018
+LAST MODIFIED   : 24/05/2016
 =cut
 
 use strict;
