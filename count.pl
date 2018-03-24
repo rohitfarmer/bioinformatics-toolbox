@@ -7,7 +7,7 @@ USAGE           : count.pl <name.fasta>
 INPUT			: name.fasta
 OUTPUT			: Number of FASTA sequences: <number>
 AUTHOR			: Dr. Rohit Farmer
-LAST MODIFIED	: 24/05/2016
+LAST MODIFIED	: 24/02/2018
 =cut
 
 use strict;
