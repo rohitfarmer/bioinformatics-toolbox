@@ -1,13 +1,14 @@
 #!/usr/bin/perl 
 
 =Synopsis
-DESCRIPTION		: Counts the number of sequences in a multiple FASTA file.
-DEPENDENCIES	: none
+DESCRIPTION     : Counts the number of sequences in a multiple FASTA file.
+DEPENDENCIES    : none
 USAGE           : count.pl <name.fasta>
-INPUT			: name.fasta
-OUTPUT			: Number of FASTA sequences: <number>
-AUTHOR			: Dr. Rohit Farmer
-LAST MODIFIED	: 24/02/2018
+INPUT           : name.fasta
+OUTPUT          : Number of FASTA sequences: <number>
+AUTHOR          : Dr. Rohit Farmer
+EMAIL			: rohit.farmer@gmail.com
+LAST MODIFIED   : 24/02/2018
 =cut
 
 use strict;
