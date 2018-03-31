@@ -8,14 +8,14 @@ Collection of scripts written in Perl or Python for some everyday as well as spe
 *Usage : count.pl <file.fasta>*
 
 **filter_duplicate.pl** : Filters duplicate sequences in a multiple FASTA file.  
-*Usage : filter_duplicate.pl <file.fasta>*
+*Usage : filter_duplicate.pl <file.fasta>*  
 *Note : Depends on BioPerl*
 
 **length.pl** : Calculates length of sequence(s) in FASTA format.  
 *Usage : length.pl <file.fasta>*
 
-**blastxml_query_coverage.pl** : Parse BLAST XML output (downloaded from the NCBI BLAST website), to fetch sequences with a desired query coverage (percentage). 
-*Usage : blastxml_query_coverage.pl <file.xml> <query-coverage %>*
+**blastxml_query_coverage.pl** : Parse BLAST XML output (downloaded from the NCBI BLAST website), to fetch sequences with a desired query coverage (percentage).  
+*Usage : blastxml_query_coverage.pl <file.xml> <query-coverage %>*  
 *Note : Depends on XML::Simple*
 
 ## Protein Structure Analysis
