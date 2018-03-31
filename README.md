@@ -14,6 +14,10 @@ Collection of scripts written in Perl or Python for some everyday as well as spe
 **length.pl** : Calculates length of sequence(s) in FASTA format.  
 *Usage : length.pl <file.fasta>*
 
+**blastxml_query_coverage.pl** : Parse BLAST XML output (downloaded from the NCBI BLAST website), to fetch sequences with a desired query coverage (percentage). 
+*Usage : blastxml_query_coverage.pl <file.xml> <query-coverage %>*
+*Note : Depends on XML::Simple*
+
 ## Protein Structure Analysis
 
 **atom2hetatm.pl** : Converts the ATOM flag to HETATM flag for the ligand residue in the HADDOCK output file.  
