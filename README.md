@@ -18,6 +18,14 @@ Collection of scripts written in Perl or Python for some everyday as well as spe
 *Usage : blastxml_query_coverage.pl <file.xml> <query-coverage %>*  
 *Note : Depends on XML::Simple*
 
+**extractdomains_refseq.pl** : Reads hmmsearch output from HMMER software and extracts matched sequences in FASTA format.  
+*Usage : extractdomains_refseq.pl <hmmsearch output file>*  
+*Note : hmmsearch must be done against **refseq** database.*
+
+**extractdomains_trembl.pl** : Reads hmmsearch output from HMMER software and extracts matched sequences in FASTA format.  
+*Usage : extractdomains_trembl.pl <hmmsearch output file>*  
+*Note : hmmsearch must be done against **trembl** database.*
+
 ## Protein Structure Analysis
 
 **atom2hetatm.pl** : Converts the ATOM flag to HETATM flag for the ligand residue in the HADDOCK output file.  
